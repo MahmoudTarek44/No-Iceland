@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&family=Source+Serif+Pro&family=Tenor+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./bootstrap-5.2/css/bootstrap.css" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Responsive - lab 2</title>
+	</head>
+	<body>
+		<nav class="navbar fixed-top navbar-expand-lg border-bottom border-muted">
+			<div class="container container-fluid navigation-container px-4 py-2">
+				<a class="navbar-brand" href="#">
+					<img
+						class="img-logo"
+						src="./images/5b471562a0981421175a45a5_noiceland_logo.svg"
+						alt="logo"
+					/>
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#main-navbar"
+					aria-controls="main-navbar"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="main-navbar">
+					<ul
+						class="navbar-nav ms-auto mb-2 mb-lg-0 pt-sm-4 pt-md-5 pt-lg-0 flex-md-row justify-content-md-center"
+					>
+						<li class="nav-item p-3 text-end p-md-4 p-lg-1">
+							<a class="nav-link text-dark fw-bold fs-6" href="#">Home</a>
+						</li>
+						<!-- <div id="home" class="navigation-hover d-xs-none d-lg-inline"></div> -->
+						<li class="nav-item p-3 text-end p-md-4 p-lg-1">
+							<a class="nav-link text-dark fw-bold fs-6" href="#">Latest</a>
+						</li>
+						<!-- <div
+							id="latest"
+							class="navigation-hover d-xs-none d-lg-inline"
+						></div> -->
+						<li class="nav-item p-3 text-end p-md-4 p-lg-1">
+							<a class="nav-link text-dark fw-bold fs-6" href="#">About</a>
+						</li>
+						<!-- <div
+							id="about"
+							class="navigation-hover d-xs-none d-lg-inline"
+						></div> -->
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<section class="banner">
+			<div class="container">
+				<div class="row gx-2 py-5">
+					<div class="col-sm-12 col-lg-7">
+						<figure>
+							<img class="img-fluid" src="./images/panner.jpg" alt="banner" />
+						</figure>
+					</div>
+					<div class="px-lg-5 px-sm-0 col-sm-12 col-lg-5">
+						<h4 class="pb-2">
+							<a class="underline" href="#">ILLUSTRATION</a>
+						</h4>
+						<p class="banner-main-par">
+							JAPAN HOUSE OPENS IN MOUNTAINSIDE TO FOSTER PEAK CREATIVITY.
+						</p>
+						<p class="banner-par">
+							Enim omittam qui id, ex quo atqui dictas complectitur. Nec ad
+							timeam accusata, hinc justo falli id eum, ferri novum molestie eos
+							cu.
+						</p>
+						<div>
+							<span class="pe-2">BY</span
+							><a class="text-decoration-none text-dark underline" href="#"
+								>RETA TROPHY</a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="row gx-4 pb-md-3 pb-sm-0">
+					<div class="col-md-4 col-sm-12 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/main1.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">PHOTOGRAPHY</a>
+							</h4>
+							<p class="main-par">
+								HELMUT LANG CELEBRATES TAXI DRIVERS WORLDWIDE IN LATEST CAMPAIGN
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark underline" href="#"
+									>ALESSANDRA ORTIZ</a
+								>
+							</div>
+						</figcaption>
+					</div>
+					<div class="col-md-4 col-sm-12 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/main2.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">PHOTOGRAPHY</a>
+							</h4>
+							<p class="main-par">
+								BOWLCUT LAUNCH A NEW SUMMER COLLECTION THAT PAYS HOMAGE TO “UK
+								LEGENDS”
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark underline" href="#"
+									>ROSANNA ONDRICKA</a
+								>
+							</div>
+						</figcaption>
+					</div>
+					<div class="col-md-4 col-sm-12 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/main3.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">PHOTOGRAPHY</a>
+							</h4>
+							<p class="main-par">
+								THOUSANDS OF PREVIOUSLY UNSEEN PHOTOGRAPHS BY ANDY WARHOL WILL
+								BE MADE PUBLIC THIS AUTUMN
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark underline" href="#"
+									>ANNIE LUEILWITZ</a
+								>
+							</div>
+						</figcaption>
+					</div>
+				</div>
+				<div class="row gx-4 col-sm-12">
+					<div class="col-md-4 col-sm-12 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/main4.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">INTERACTIVE DESIGN</a>
+							</h4>
+							<p class="main-par">
+								HELMUT LANG CELEBRATES TAXI DRIVERS WORLDWIDE IN LATEST CAMPAIGN
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark underline" href="#"
+									>ANNIE LUEILWITZ</a
+								>
+							</div>
+						</figcaption>
+					</div>
+					<div class="col-md-4 col-sm-12 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/main5.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">GRAPHIC DESIGN</a>
+							</h4>
+							<p class="main-par">
+								BOWLCUT LAUNCH A NEW SUMMER COLLECTION THAT PAYS HOMAGE TO “UK
+								LEGENDS”
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark underline" href="#"
+									>SIMEON BREKKE</a
+								>
+							</div>
+						</figcaption>
+					</div>
+					<div class="col-md -4 col-sm-12 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/main6.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">ARCHITECTURE</a>
+							</h4>
+							<p class="main-par">
+								THOUSANDS OF PREVIOUSLY UNSEEN PHOTOGRAPHS BY ANDY WARHOL WILL
+								BE MADE PUBLIC THIS AUTUMN
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark underline" href="#"
+									>RETA TROPHY</a
+								>
+							</div>
+						</figcaption>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="container py-5">
+			<hr class="text-secondary" />
+		</div>
+		<section class="latest">
+			<div class="container">
+				<h4 class="pb-4"><a class="underline" href="#">LATEST POSTS</a></h4>
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-lg-3 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/main1.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">PHOTOGRAPHY</a>
+							</h4>
+							<p class="main-par">
+								JAPAN HOUSE OPENS IN MOUNTAINSIDE TO FOSTER PEAK CREATIVITY.
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark" href="#"
+									>RETA TROPHY</a
+								>
+							</div>
+						</figcaption>
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-3 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/main1.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">PHOTOGRAPHY</a>
+							</h4>
+							<p class="main-par">
+								HELMUT LANG CELEBRATES TAXI DRIVERS WORLDWIDE IN LATEST CAMPAIGN
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark" href="#"
+									>ALESSANDRA ORTIZ</a
+								>
+							</div>
+						</figcaption>
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-3 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/main2.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">PHOTOGRAPHY</a>
+							</h4>
+							<p class="main-par">
+								BOWLCUT LAUNCH A NEW SUMMER COLLECTION THAT PAYS HOMAGE TO “UK
+								LEGENDS”
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark" href="#"
+									>ROSANNA ONDRICKA</a
+								>
+							</div>
+						</figcaption>
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-3 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/main3.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">PHOTOGRAPHY</a>
+							</h4>
+							<p class="main-par">
+								THOUSANDS OF PREVIOUSLY UNSEEN PHOTOGRAPHS BY ANDY WARHOL WILL
+								BE MADE PUBLIC THIS AUTUMN
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark" href="#"
+									>ANNIE LUEILWITZ</a
+								>
+							</div>
+						</figcaption>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-lg-3 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/main4.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">INTERACTIVE DESIGN</a>
+							</h4>
+							<p class="main-par">
+								HELMUT LANG CELEBRATES TAXI DRIVERS WORLDWIDE IN LATEST CAMPAIGN
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark" href="#"
+									>ANNIE LUEILWITZ</a
+								>
+							</div>
+						</figcaption>
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-3 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/main5.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">GRAPHIC DESIGN</a>
+							</h4>
+							<p class="main-par">
+								BOWLCUT LAUNCH A NEW SUMMER COLLECTION THAT PAYS HOMAGE TO “UK
+								LEGENDS”
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark" href="#"
+									>SIMEON BREKKE</a
+								>
+							</div>
+						</figcaption>
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-3 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/main6.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">ARCHITECTURE</a>
+							</h4>
+							<p class="main-par">
+								THOUSANDS OF PREVIOUSLY UNSEEN PHOTOGRAPHS BY ANDY WARHOL WILL
+								BE MADE PUBLIC THIS AUTUMN
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark" href="#"
+									>RETA TROPHY</a
+								>
+							</div>
+						</figcaption>
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-3 pb-sm-4">
+						<figure>
+							<img class="img-fluid" src="./images/late8.jpg" alt="design" />
+						</figure>
+						<figcaption>
+							<h4 class="pb-2">
+								<a class="underline" href="#">ARCHITECTURE</a>
+							</h4>
+							<p class="main-par">
+								ANU AMBASNA’S PLAYFUL ILLUSTRATIONS CELEBRATE CLUB CULTURE,
+								BROWN BODIES AND PERFECT PAUNCHES
+							</p>
+							<div>
+								<span class="pe-2">BY</span
+								><a class="text-decoration-none text-dark" href="#"
+									>LEO BARTELL</a
+								>
+							</div>
+						</figcaption>
+					</div>
+				</div>
+				<div class="row mx-auto justify-content-center align-items-center">
+					<button
+						type="button"
+						class="view btn btn-outline-dark btn-md mt-5 py-4 rounded-0 col-6 col-md-4 col-lg-3"
+					>
+						VIEW ALL LATEST POSTS
+					</button>
+				</div>
+			</div>
+		</section>
+		<div class="container py-5">
+			<hr class="text-secondary" />
+		</div>
+		<section class="featured pb-5">
+			<div class="container">
+				<h4 class="pb-4"><a class="underline" href="#">FEATURED POSTS</a></h4>
+				<div class="row pb-5">
+					<div class="col-sm-12 col-md-6">
+						<figure>
+							<img src="./images/feat1.jpg" alt="design" class="img-fluid" />
+						</figure>
+						<h4 class="pb-2">
+							<a class="underline" href="#">GRAPHIC DESIGN</a>
+						</h4>
+						<p class="main-par">A BRIEF HISTORY OF THE FIFA WORLD CUP LOGO</p>
+						<div>
+							<span class="pe-2">BY</span
+							><a class="text-decoration-none text-dark" href="#"
+								>CLEM ONOJEGHUO</a
+							>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<figure>
+							<img src="./images/feat2.jpg" alt="design" class="img-fluid" />
+						</figure>
+						<h4 class="pb-2">
+							<a class="underline" href="#">GRAPHIC DESIGN</a>
+						</h4>
+						<p class="main-par">
+							NEED A GUIDE TO LA’S GRAPHIC DESIGN SCENE? SHOPLIFTERS’ NEW ISSUE
+							HAS GOT YOUR BACK
+						</p>
+						<div>
+							<span class="pe-2">BY</span
+							><a class="text-decoration-none text-dark" href="#"
+								>ALESSANDRA ORTIZ</a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-6">
+						<figure>
+							<img src="./images/feat3.jpg" alt="design" class="img-fluid" />
+						</figure>
+						<h4 class="pb-2">
+							<a class="underline" href="#">GRAPHIC DESIGN</a>
+						</h4>
+						<p class="main-par">FRED ROWSON DIRECTS FILM FOR YEARS AND YEARS</p>
+						<div>
+							<span class="pe-2">BY</span
+							><a class="text-decoration-none text-dark" href="#"
+								>COBY GOTTLIEB</a
+							>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<figure>
+							<img src="./images/feat4.jpg" alt="design" class="img-fluid" />
+						</figure>
+						<h4 class="pb-2">
+							<a class="underline" href="#">GRAPHIC DESIGN</a>
+						</h4>
+						<p class="main-par">
+							M&C SAATCHI AND FONTSMITH COLLABORATE ON FONT COLLECTION FOR HOUSE
+							OF ST BARNABAS
+						</p>
+						<div>
+							<span class="pe-2">BY</span
+							><a class="text-decoration-none text-dark" href="#"
+								>ANNIE LUEILWITZ</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer bg-dark px-3 py-5">
+			<div class="container">
+				<div class="row">
+					<div class="flex-start">
+						<a href="#"
+							><img
+								class="img-fluid"
+								src="./images/5b4759f1ee75f16151397de3_logo-white.svg"
+								alt="w-logo"
+						/></a>
+						<h4 class="ps-2 d-inline">
+							© 2018 NOICELAND™, ALL RIGHTS RESERVED
+						</h4>
+					</div>
+				</div>
+				<div class="py-5">
+					<hr class="text-light" />
+				</div>
+				<div class="row">
+					<div
+						class="accordion accordion-flush d-lg-none d-md-block order-2"
+						id="accordionFlushExample"
+					>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingOne">
+								<button
+									class="accordion-button collapsed"
+									type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseOne"
+									aria-expanded="false"
+									aria-controls="flush-collapseOne"
+								>
+									<a class="text-secondary text-decoration-none fs-6" href="#"
+										>CATEGORIES</a
+									>
+								</button>
+							</h2>
+							<div
+								id="flush-collapseOne"
+								class="accordion-collapse collapse"
+								aria-labelledby="flush-headingOne"
+								data-bs-parent="#accordionFlushExample"
+							>
+								<div class="accordion-body">
+									<ul>
+										<li class="list-unstyled py-2">
+											<a class="text-decoration-none text-dark" href="#"
+												>Animation</a
+											>
+										</li>
+										<li class="list-unstyled py-2">
+											<a class="text-decoration-none text-dark" href="#"
+												>Interactive Design</a
+											>
+										</li>
+										<li class="list-unstyled py-2">
+											<a class="text-decoration-none text-dark" href="#"
+												>Architecture</a
+											>
+										</li>
+										<li class="list-unstyled py-2">
+											<a class="text-decoration-none text-dark" href="#"
+												>Miscellaneous</a
+											>
+										</li>
+										<li class="list-unstyled py-2">
+											<a class="text-decoration-none text-dark" href="#"
+												>Graphic Design</a
+											>
+										</li>
+										<li class="list-unstyled py-2">
+											<a class="text-decoration-none text-dark" href="#"
+												>Photography</a
+											>
+										</li>
+										<li class="list-unstyled py-2">
+											<a class="text-decoration-none text-dark" href="#"
+												>Illustration</a
+											>
+										</li>
+										<li class="list-unstyled py-2">
+											<a class="text-decoration-none text-dark" href="#"
+												>Product Design</a
+											>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-8 text-align-start d-none d-lg-block">
+						<h4 class="pb-3">
+							<a href="#">CATEGORIES</a>
+						</h4>
+						<div class="row">
+							<ul class="col-3">
+								<li class="pb-3">
+									<a
+										href="#"
+										class="text-light fw-bold fs-6 text-decoration-none"
+										>Animation</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="text-light fw-bold fs-6 text-decoration-none"
+										>Interactive Design</a
+									>
+								</li>
+							</ul>
+							<ul class="col-3">
+								<li class="pb-3">
+									<a
+										href="#"
+										class="text-light fw-bold fs-6 text-decoration-none"
+										>Architecture</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="text-light fw-bold fs-6 text-decoration-none"
+										>Miscellaneous</a
+									>
+								</li>
+							</ul>
+							<ul class="col-3">
+								<li class="pb-3">
+									<a
+										href="#"
+										class="text-light fw-bold fs-6 text-decoration-none"
+										>Graphic Design</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="text-light fw-bold fs-6 text-decoration-none"
+										>Photography</a
+									>
+								</li>
+							</ul>
+							<ul class="col-3">
+								<li class="pb-3">
+									<a
+										href="#"
+										class="text-light fw-bold fs-6 text-decoration-none"
+										>Illustration</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="text-light fw-bold fs-6 text-decoration-none"
+										>Product Design</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12 order-1 px-lg-5">
+						<h4 class="pb-3">
+							<a href="#">SUBSCRIBE TO NEWSLETTER</a>
+						</h4>
+						<div class="input-group pb-4">
+							<input
+								type="text"
+								class="form-control rounded-0 px-2 py-3"
+								placeholder="Email address"
+								aria-label="Email address"
+								aria-describedby="button-send"
+							/>
+							<button
+								class="btn bg-dark text-light p-3 border-0"
+								type="submit"
+								id="button-send"
+							>
+								SEND
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="row col col-md-9 col-lg-6 pt-5">
+					<div class="col-6 col-md-4">
+						<h4 class="pb-3">
+							<a href="#">INFORMATION</a>
+						</h4>
+						<ul class="p-0">
+							<li class="py-2">
+								<a class="text-light text-decoration-none fw-bold fs-6" href="#"
+									>about</a
+								>
+							</li>
+							<li class="py-2">
+								<a class="text-light text-decoration-none fw-bold fs-6" href="#"
+									>contact</a
+								>
+							</li>
+							<li class="py-2">
+								<a class="text-light text-decoration-none fw-bold fs-6" href="#"
+									>terms</a
+								>
+							</li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-4">
+						<h4 class="pb-3">
+							<a href="#" class="hover">FOLLOW US</a>
+						</h4>
+						<ul class="p-0">
+							<li class="py-2">
+								<a class="text-light text-decoration-none fw-bold fs-6" href="#"
+									>instagram</a
+								>
+							</li>
+							<li class="py-2">
+								<a class="text-light text-decoration-none fw-bold fs-6" href="#"
+									>facebook</a
+								>
+							</li>
+							<li class="py-2">
+								<a class="text-light text-decoration-none fw-bold fs-6" href="#"
+									>twitter</a
+								>
+							</li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-4">
+						<h4 class="pb-3">
+							<a href="#">TEMPLATE</a>
+						</h4>
+						<ul class="p-0">
+							<li class="py-2">
+								<a class="text-light text-decoration-none fw-bold fs-6" href="#"
+									>Image License Info</a
+								>
+							</li>
+							<li class="py-2">
+								<a class="text-light text-decoration-none fw-bold fs-6" href="#"
+									>Powered by Webflow</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="./bootstrap-5.2/js/bootstrap.js"></script>
+	</body>
+</html>
